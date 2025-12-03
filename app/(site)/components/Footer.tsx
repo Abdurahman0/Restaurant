@@ -3,9 +3,9 @@ import { FaFacebook, FaInstagram, FaPhone, FaTelegram } from 'react-icons/fa'
 
 export default function Footer() {
 	return (
-		<>
+		<div className='pt-5 md:pt-10 md:pb-8 pb-5'>
 			<div className='border-t-2 border-black mt-5' />
-			<div className='max-w-7xl mx-auto px-4 sm:px-10 lg:px-[120px] pt-5 pb-2.5'>
+			<div className='max-w-7xl md:flex md:gap-5 mx-auto px-4 sm:px-10 lg:px-[120px] pt-5 pb-2.5'>
 				<div className=''>
 					<Image
 						alt='Logo'
@@ -15,12 +15,13 @@ export default function Footer() {
 						className='-mt-8'
 					></Image>
 				</div>
-				<div className='flex flex-col gap-2.5'>
+
+				<div className='flex flex-col md:flex-row gap-2.5 md:gap-10'>
 					<div className='flex flex-col gap-2'>
 						<h3 className='text-[#FAC22B] text-2xl font-bold'>
 							Yoqimli Taomlar Restorani
 						</h3>
-						<div className='grid grid-cols-2'>
+						<div className='grid grid-cols-2 md:gap-x-12 md:gap-y-3'>
 							<a href='' className='text-lg font-semibold'>
 								Biz haqimizda
 							</a>
@@ -69,7 +70,7 @@ export default function Footer() {
 
 					<div className='flex flex-col gap-1'>
 						<h3 className='text-[#FAC22B] text-2xl font-bold'>
-							Biz Ijtimoiy Tarmoqlarda
+							Biz Bilan Bog&apos;laning
 						</h3>
 						<div className='flex items-center gap-1'>
 							<FaPhone className='text-xl scale-x-[-1]' />
@@ -78,6 +79,6 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }

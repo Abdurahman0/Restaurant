@@ -6,13 +6,16 @@ import 'swiper/css'
 export default function ReviewCarousel() {
 	return (
 		<>
-			<div className='block md:hidden'>
+			<div className='block'>
 				<Swiper
 					spaceBetween={20}
-					slidesPerView={1.2}
 					loop={true}
 					autoplay={{ delay: 2500 }}
-					className='max-w-7xl mx-auto px-4 sm:px-10 lg:px-[120px] pt-5 pb-5'
+					breakpoints={{
+						640: { slidesPerView: 1.2 }, // mobile
+						1024: { slidesPerView: 2.4 }, // large screens
+					}}
+					className='max-w-full mx-auto px-4 sm:px-10 lg:px-[120px] pt-5 pb-5'
 				>
 					<SwiperSlide className='p-1'>
 						<div className='bg-[#D9D9D9] shadow-[4px_8px_2px_rgba(0,0,0,0.6)] w-fit h-fit p-4 rounded-xl'>
