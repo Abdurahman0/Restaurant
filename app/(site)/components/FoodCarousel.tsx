@@ -10,7 +10,7 @@ export default function FoodCarousel() {
 			<div>
 				<Swiper
 					spaceBetween={20}
-					loop={true}
+					loop={false}
 					autoplay={{ delay: 2500 }}
 					breakpoints={{
 						640: { slidesPerView: 1 }, // mobile

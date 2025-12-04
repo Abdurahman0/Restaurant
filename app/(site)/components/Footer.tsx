@@ -25,7 +25,7 @@ export default function Footer() {
 							<a href='' className='text-lg font-semibold'>
 								Biz haqimizda
 							</a>
-							<a href='' className='text-lg font-semibold'>
+							<a href='/menu' className='text-lg font-semibold'>
 								Menyu
 							</a>
 							<a href='' className='text-lg font-semibold'>

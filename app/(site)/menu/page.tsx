@@ -1,8 +1,17 @@
+import Footer from '../components/Footer'
+import MavsumiyTaomlar from '../components/Mavsumiy Taomlar'
+import Menu from '../components/Menu'
+import Navbar from '../components/Navbar'
+import TavsiyaTaomlar from '../components/TavsiyaTaomlar'
+
 export default function MenuPage() {
 	return (
-		<div>
-			<h1>Menu</h1>
-			<p>This is our restaurant website.</p>
-		</div>
+		<>
+			<Navbar />
+			<Menu />
+			<TavsiyaTaomlar />
+			<MavsumiyTaomlar />
+			<Footer />
+		</>
 	)
 }

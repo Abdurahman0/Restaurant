@@ -103,7 +103,7 @@ export default function ContactUs() {
 										Joy siz ko&apos;rsatgan vaqtdan boshlab 15 daqiqa davomida
 										saqlanadi!
 									</p>
-									<button className='bg-[#DD1C1C] py-3 px-3 md:px-12 md:w-fit place-self-center text-center text-white rounded-full text-sm md:text-lg col-span-2'>
+									<button className='bg-[#DD1C1C] py-3 px-3 md:px-12 md:w-fit place-self-center text-center text-white rounded-full text-sm md:text-lg col-span-2 cursor-pointer'>
 										Joyni Band Qilish
 									</button>
 								</form>
