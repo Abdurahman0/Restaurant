@@ -1,8 +1,15 @@
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import News from '../components/News'
+import NewsIntro from '../components/NewsIntro'
+
 export default function NewsPage() {
 	return (
-		<div>
-			<h1>News</h1>
-			<p>This is our restaurant website.</p>
-		</div>
+		<>
+			<Navbar />
+			<NewsIntro />
+			<News />
+			<Footer />
+		</>
 	)
 }
