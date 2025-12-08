@@ -1,8 +1,15 @@
+import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar'
+import NewsId from '../../components/NewsId'
+import OtherNews from '../../components/OtherNews'
+
 export default function NewsIdPage() {
 	return (
-		<div>
-			<h1>NewsId</h1>
-			<p>This is our restaurant website.</p>
-		</div>
+		<>
+			<Navbar />
+			<NewsId />
+			<OtherNews />
+			<Footer />
+		</>
 	)
 }
