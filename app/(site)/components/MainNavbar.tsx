@@ -4,9 +4,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { usePathname } from 'next/navigation'
+import { useState } from 'react'
+import MobileMenu from './Responsive'
 
 export default function MainNavbar() {
 	const pathname = usePathname()
+	const [open, setOpen] = useState(false)
 
 	const linkClasses = (path: string) =>
 		`text-lg font-semibold ${
@@ -15,22 +18,21 @@ export default function MainNavbar() {
 
 	return (
 		<div className='sticky top-0 z-50 w-full'>
-			{/* MOBILE */}
+			{/* MOBILE NAVBAR */}
 			<div className='lg:hidden px-4 py-3'>
-				{/* Background only on CHILD in mobile */}
 				<div className="flex justify-between items-center p-3 rounded-xl bg-[url('/restoranbg.jpg')] bg-cover bg-center">
 					<Image alt='Logo' src='/Logo.png' width={64} height={64} />
-					<GiHamburgerMenu className='text-white size-9' />
+
+					{/* OPEN MENU */}
+					<GiHamburgerMenu
+						className='text-white size-9'
+						onClick={() => setOpen(true)}
+					/>
 				</div>
 			</div>
 
-			{/* DESKTOP */}
-			<div
-				/* Background ONLY on parent in desktop */
-				className="
-					hidden lg:flex justify-between items-center	px-[120px] bg-[url('/restoranbg.jpg')] bg-cover bg-center 
-				"
-			>
+			{/* DESKTOP NAVBAR */}
+			<div className="hidden lg:flex justify-between items-center px-[120px] bg-[url('/restoranbg.jpg')] bg-cover bg-center">
 				<Image alt='Logo' src='/Logo.png' width={128} height={128} />
 
 				<div className='flex gap-36 text-white'>
@@ -54,6 +56,9 @@ export default function MainNavbar() {
 					</div>
 				</div>
 			</div>
+
+			{/* MOBILE MENU MODAL */}
+			<MobileMenu open={open} setOpen={setOpen} />
 		</div>
 	)
 }
