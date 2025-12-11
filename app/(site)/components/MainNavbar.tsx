@@ -10,7 +10,7 @@ export default function MainNavbar() {
 
 	const linkClasses = (path: string) =>
 		`text-lg font-semibold ${
-			pathname === path ? 'text-[#E98A3F]' : 'text-white'
+			pathname === path ? 'text-[#FFB200]' : 'text-white'
 		}`
 
 	return (

@@ -1,6 +1,6 @@
 export default function ForSale() {
 	return (
-		<>
+		<div className='bg-white'>
 			<div className='bg-[url("/restoranbg.jpg")] bg-cover bg-center bg-[#2E0F10]/60 bg-blend-multiply mb-5 block md:hidden'>
 				<div className='max-w-7xl mx-auto px-4 sm:px-10 lg:px-[120px]'>
 					<div className='flex flex-col gap-[25px]'>
@@ -70,6 +70,6 @@ export default function ForSale() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }

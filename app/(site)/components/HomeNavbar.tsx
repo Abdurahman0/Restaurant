@@ -18,7 +18,7 @@ export default function HomeNavbar() {
 			</div>
 
 			<div className='items-center justify-center hidden lg:flex gap-36 text-white'>
-				<Link href='/' className='text-lg font-semibold text-[#E98A3F]'>
+				<Link href='/' className='text-lg font-semibold text-[#FFB200]'>
 					Bosh Sahifa
 				</Link>
 				<Link href='/menu' className='text-lg font-semibold'>

@@ -23,17 +23,17 @@ export default function OtherNews() {
 							<div className="bg-[url('/opening.jpg')] bg-center bg-cover h-56 md:h-64 w-full rounded-2xl" />
 
 							{/* CONTENT */}
-							<div className='flex flex-col gap-3 mt-3'>
+							<div className='flex flex-col gap-3 mt-3 md:text-lg'>
 								<h2 className='text-[#FAC22B] font-medium text-2xl md:text-3xl px-2.5'>
 									Yangi Filial Ochilish Marosimi
 								</h2>
 
-								<p className='text-[#3A3A3A] px-2.5 md:text-lg font-medium'>
+								<p className='text-[#3A3A3A] pl-2.5 pr-2.5 font-medium'>
 									Yoqimli Taomlar o‘zining yangi filialini tantanali ravishda
 									ochdi. Ochilish marosimi [sana] kuni bo‘lib o‘tdi...
 								</p>
 
-								<div className='flex justify-end px-2.5 pb-3 text-sm'>
+								<div className='pr-2 flex justify-end pb-3 text-sm'>
 									<button className='bg-[#219169] py-2 px-4 rounded-xl text-white'>
 										Batafsil
 									</button>
