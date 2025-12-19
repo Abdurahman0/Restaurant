@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { FaFacebook, FaInstagram, FaPhone, FaTelegram } from 'react-icons/fa'
 
 export default function Footer() {
@@ -24,18 +25,18 @@ export default function Footer() {
 									Yoqimli Taomlar Restorani
 								</h3>
 								<div className='grid grid-cols-2 md:gap-x-12 md:gap-y-3'>
-									<a href='' className='text-lg font-semibold'>
+									<Link href='/about-us' className='text-lg font-semibold'>
 										Biz haqimizda
-									</a>
-									<a href='/menu' className='text-lg font-semibold'>
+									</Link>
+									<Link href='/menu' className='text-lg font-semibold'>
 										Menyu
-									</a>
-									<a href='' className='text-lg font-semibold'>
+									</Link>
+									<Link href='' className='text-lg font-semibold'>
 										Buyurtma
-									</a>
-									<a href='' className='text-lg font-semibold'>
+									</Link>
+									<Link href='/news' className='text-lg font-semibold'>
 										Yangiliklar
-									</a>
+									</Link>
 								</div>
 							</div>
 

@@ -59,7 +59,7 @@ export default function News() {
 
 						{/* BUTTON */}
 						<div className='flex justify-end mt-2.5'>
-							<button className='bg-[#219169] py-3 px-3 lg:w-56 w-2/3 text-center rounded-xl text-sm cursor-pointer'>
+							<button className='bg-[#219169] py-3 px-3 lg:w-56 w-2/3 text-center text-white rounded-xl text-sm cursor-pointer'>
 								Batafsil
 							</button>
 						</div>
