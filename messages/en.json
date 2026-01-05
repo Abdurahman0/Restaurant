@@ -68,7 +68,9 @@
 		"newsTitle": "Opening Ceremony of Our New Branch",
 		"newsDesc": "Yoqimli Taomlar proudly opened its new branch with a grand ceremony. The opening event took place on [date] and was attended by company management, staff, loyal customers, and industry representatives.",
 		"newsDesc2": "The new branch stands out with its modern design and convenient location. Guests can enjoy high-quality service, a wide menu selection, and a comfortable atmosphere. During the ceremony, special promotions and gifts were presented to visitors...",
-		"newsBtn": "Read More"
+		"newsBtn": "Read More",
+		"allNews": "All News",
+		"otherNews": "Additional News"
 	},
 
 	"AboutPage": {

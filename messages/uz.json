@@ -64,7 +64,9 @@
 		"newsTitle": "Yangi Filial Ochilish Marosimi",
 		"newsDesc": "Yoqimli Taomlar o‘zining yangi filialini tantanali ravishda ochdi. Ochilish marosimi [sana] kuni bo‘lib o‘tdi va tadbirda kompaniya rahbariyati, xodimlar, mijozlar hamda soha vakillari ishtirok etdilar.",
 		"newsDesc2": "Yangi filial zamonaviy dizayn va qulay joylashuv bilan ajralib turadi. U yerda mijozlarga sifatli xizmat ko‘rsatish, keng menu tanlovi va qulay sharoitlar taqdim etiladi. Ochilish marosimi davomida mehmonlar uchun maxsus aksiyalar va sovg‘alar taqdim etildi....",
-		"newsBtn": "Batafsil"
+		"newsBtn": "Batafsil",
+		"allNews": "Barcha Yangiliklar",
+		"otherNews": "Qo'shimcha Yangiliklar"
 	},
 	"AboutPage": {
 		"aboutTitle": "Bizning hikoyamiz, bizning mahoratimiz",
